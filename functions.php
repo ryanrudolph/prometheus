@@ -48,6 +48,9 @@ function prometheus_remove_genesis_widgets() {
 // Remove Edit link
 add_filter( 'genesis_edit_post_link', '__return_false' );
 
+//Remove comments
+remove_action( 'genesis_after_post', 'genesis_get_comments_template' );
+
 //* Hook in custom footer
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'prometheus_footer' );

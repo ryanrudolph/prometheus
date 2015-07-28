@@ -2,8 +2,12 @@
 Version 1.0
 
 Features:
-- Enqueued Font Awesome
-- Custom footer
-- Custom front-page.php file
-- Removed edit link
 - Removed Genesis widgets
+- Removed comments
+- Removed edit link
+- Enqueued Font Awesome
+- Custom front-page.php file
+- Custom footer
+- Added support for 5 column widgets
+
+

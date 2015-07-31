@@ -19,3 +19,4 @@ Github original project link: https://github.com/copyblogger/genesis-sample
     Custom footer
     Added support for 5 column widgets
 
+

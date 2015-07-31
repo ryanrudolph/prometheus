@@ -1,9 +1,21 @@
 # Prometheus - Genesis Starter Child Theme
-Version 1.0
 
-Features:
-- Enqueued Font Awesome
-- Custom footer
-- Custom front-page.php file
-- Removed edit link
-- Removed Genesis widgets
+# Version 1.0
+
+Supports Genesis 2.0+
+
+# Based On
+
+Genesis Sample Child
+Github original project link: https://github.com/copyblogger/genesis-sample
+
+# Features:
+
+    Removed Genesis widgets
+    Removed comments
+    Removed edit link
+    Enqueued Font Awesome
+    Custom front-page.php file
+    Custom footer
+    Added support for 5 column widgets
+

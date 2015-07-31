@@ -13,9 +13,9 @@
     Removed comments
     Removed edit link
     Enqueued Font Awesome
-    Custom front-page.php file
-    Custom footer
-    Added support for 5 column widgets
-    Added support for mobile logos
+    Custom front-page.php
+    Custom footer copyright
+    Added support for 5 column layout
+    Added support for mobile logo
 
 

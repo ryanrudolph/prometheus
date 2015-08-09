@@ -45,11 +45,19 @@ function prometheus_remove_genesis_widgets() {
     unregister_widget( 'Genesis_User_Profile_Widget'    );
 }
 
-// Remove Edit link
+//* Remove edit link
 add_filter( 'genesis_edit_post_link', '__return_false' );
 
-//Remove comments
+//* Remove comments
 remove_action( 'genesis_after_post', 'genesis_get_comments_template' );
+
+//* Remove Genesis page templates
+function prometheus_remove_genesis_page_templates( $page_templates ) {
+	unset( $page_templates['page_archive.php'] );
+	unset( $page_templates['page_blog.php'] );
+	return $page_templates;
+}
+add_filter( 'theme_page_templates', 'prometheus_remove_genesis_page_templates' );
 
 //* Hook in custom footer
 remove_action( 'genesis_footer', 'genesis_do_footer' );

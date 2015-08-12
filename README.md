@@ -6,16 +6,23 @@
 
     Genesis Sample Child
     Github original project link: https://github.com/copyblogger/genesis-sample
+    
+    BE-Genesis-Child
+    Github original project link: https://github.com/billerickson/BE-Genesis-Child
+    
+    Genesis Sample with Mobile Responsive Hamburger Menu 
+    Github original project link: https://github.com/srikat/genesis-sample
 
 # Features:
 
+    Responsive mobile hamburger menu
+    front-page.php template
+    Sitemap template
+    Custom footer copyright
+    Enqueued Font Awesome
+    Support for 5 column layout
+    Support for mobile logo
     Removed Genesis widgets
     Removed comments
     Removed edit link
-    Enqueued Font Awesome
-    Custom front-page.php
-    Custom footer copyright
-    Added support for 5 column layout
-    Added support for mobile logo
-
 

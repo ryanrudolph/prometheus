@@ -23,6 +23,15 @@ function enqueue_font_awesome() {
 
 }
 
+// Enqueue scripts and styles
+add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
+function custom_scripts_styles_mobile_responsive() {
+
+	wp_enqueue_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_style( 'dashicons' );
+
+}
+
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 

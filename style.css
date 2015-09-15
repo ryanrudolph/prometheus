@@ -50,6 +50,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 - Sidebars
 - Footer Widgets
 - Site Footer
+- Plugins
+	- Soliloquy
+	- Gravity Forms
 - Media Queries
 	- Retina Display
 	- Max-width: 1200px
@@ -451,7 +454,7 @@ th {
 /* ## Buttons
 --------------------------------------------- */
 
-.cta-button{
+.read-more{
 	display:inline-block;
 	background-color:#000;
 	color:#fff;
@@ -1151,7 +1154,6 @@ p.entry-meta {
 }
 
 
-
 /* # Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
@@ -1250,8 +1252,22 @@ p.entry-meta {
 }
 
 
-/* Responsive Menu
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+
+
+/* Soliloquy
 --------------------------------------------- */
+
+
+
+/* Gravity Forms
+--------------------------------------------- */
+
+
+
+/* # Responsive Menu
+---------------------------------------------------------------------------------------------------- */
 
 .responsive-menu-icon {
 	cursor: pointer;

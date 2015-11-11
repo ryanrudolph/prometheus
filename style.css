@@ -1356,6 +1356,19 @@ p.entry-meta {
 	.footer-widgets-1 {
 		margin-right: 30px;
 	}
+	
+	.simple-social-icons ul {
+		text-align: center!important;
+	}
+
+	.simple-social-icons ul li {
+		float: none!important;
+		display: inline-block!important;
+	}
+
+	.simple-social-icons ul.alignright{
+		float: none;
+	}
 
 }
 

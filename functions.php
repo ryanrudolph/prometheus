@@ -72,6 +72,6 @@ add_filter( 'theme_page_templates', 'prometheus_remove_genesis_page_templates' )
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'prometheus_footer' );
 function prometheus_footer() {
-echo '<div class="left"><p>© Copyright ' . date('Y') . ' ';
-echo bloginfo('name') . '. All Rights Reserved</p></div>';
+echo '<p>© Copyright ' . date('Y') . ' ';
+echo bloginfo('name') . '. All Rights Reserved</p>';
 }

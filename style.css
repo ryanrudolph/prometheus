@@ -1629,20 +1629,24 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 	.site-header{
-    	min-height:115px;
+    		min-height:115px;
         }
 
         .site-header .wrap {
-    	padding: 10px 5%;
+    		padding: 10px 5%;
 	}
 
 	.header-image .site-title > a {
-    	background: rgba(0, 0, 0, 0) url("images/logo-mobile.png") no-repeat scroll center center;
-    	min-height:110px;
+    		background: rgba(0, 0, 0, 0) url("images/logo-mobile.png") no-repeat scroll center center;
+    		min-height:110px;
         }
 
         .content .entry, .sidebar-primary .widget {
    		padding: 20px;
+	}
+	
+	.nav-primary{
+		width:100%;
 	}
 
 }

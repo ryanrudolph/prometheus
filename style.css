@@ -457,12 +457,13 @@ th {
 --------------------------------------------- */
 
 .read-more{
-	display:inline-block;
-	background-color:#000;
-	color:#fff;
-	padding:10px;
-	font-size:18px;
-	width:100%;
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
 }
 
 .fade {
@@ -1629,7 +1630,7 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 	.site-header{
-    		min-height:115px;
+    		min-height: 115px;
         }
 
         .site-header .wrap {
@@ -1638,7 +1639,7 @@ p.entry-meta {
 
 	.header-image .site-title > a {
     		background: rgba(0, 0, 0, 0) url("images/logo-mobile.png") no-repeat scroll center center;
-    		min-height:110px;
+    		min-height: 110px;
         }
 
         .content .entry, .sidebar-primary .widget {
@@ -1646,7 +1647,7 @@ p.entry-meta {
 	}
 	
 	.nav-primary{
-		width:100%;
+		width: 100%;
 	}
 
 }

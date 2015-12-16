@@ -22,7 +22,9 @@
     Enqueued Font Awesome
     Support for 5 column layout
     Support for mobile logo
-    Removed Genesis widgets
-    Removed comments
-    Removed edit link
 
+# Suggested Plugins:
+
+    Soliloquy
+    Gravity Forms
+    Accordion Shortcodes

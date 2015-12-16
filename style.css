@@ -973,6 +973,7 @@ img.alignright,
 	padding: 20px;
 	position: relative;
 	width: 200px;
+	line-height:1.5;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1276,8 +1277,9 @@ p.entry-meta {
 
 
 
-/* Accordion
---------------------------------------------- */
+/ Accordion
+To be used with the Accordion Shortcodes plugin. https://wordpress.org/plugins/accordion-shortcodes/
+--------------------------------------------- /
 
 .accordion {
         background-color: #213c71;

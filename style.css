@@ -54,6 +54,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 - Plugins
 	- Soliloquy
 	- Gravity Forms
+	- Simple Social Icons
 	- Accordions
 - Media Queries
 	- Retina Display
@@ -1277,9 +1278,9 @@ p.entry-meta {
 
 
 
-/ Accordion
+/* Accordions
 To be used with the Accordion Shortcodes plugin. https://wordpress.org/plugins/accordion-shortcodes/
---------------------------------------------- /
+--------------------------------------------- */
 
 .accordion {
         background-color: #213c71;

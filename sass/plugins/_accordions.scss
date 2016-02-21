@@ -1,0 +1,26 @@
+/* Accordions
+To be used with the Accordion Shortcodes plugin. https://wordpress.org/plugins/accordion-shortcodes/
+--------------------------------------------- */
+
+.accordion {
+        background-color: #213c71;
+        color: #dedede;
+        padding: 1px 30px;
+}
+
+.accordion-title {
+        border-bottom: 1px dashed #fff;
+        color: #fff;
+        cursor: pointer;
+        padding-bottom: 15px;
+}
+
+.accordion-title:before{
+        content: "\f103";
+        font-family: FontAwesome;
+        padding-right:10px;
+}
+
+.accordion-content {
+        margin-bottom: 25px;
+}

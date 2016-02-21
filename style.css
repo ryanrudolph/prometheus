@@ -1260,6 +1260,7 @@ p.entry-meta {
 
 .site-footer p {
 	margin-bottom: 0;
+	line-height:1.5;
 }
 
 
@@ -1556,7 +1557,7 @@ To be used with the Accordion Shortcodes plugin. https://wordpress.org/plugins/a
 	.genesis-nav-menu.responsive-menu a,
 	.genesis-nav-menu.responsive-menu a:hover {
 		background: none;
-		line-height: 1;
+		line-height: 1.5;
 		padding: 16px 20px;
 	}
 	.nav-primary .genesis-nav-menu.responsive-menu .current-menu-item > a,
@@ -1619,6 +1620,7 @@ To be used with the Accordion Shortcodes plugin. https://wordpress.org/plugins/a
 		padding: 12px 20px;
 		position: relative;
 		width: 100%;
+		line-height:1.5;
 	}
 
 	.footer-widgets-1,

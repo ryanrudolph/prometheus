@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #333;
+	background-color: $color-mine-shaft;
 	clear: both;
 	padding-top: 40px;
 }
@@ -13,7 +13,7 @@
 }
 
 .footer-widgets input {
-	border: 1px solid #333;
+	border: 1px solid $color-mine-shaft;
 }
 
 .footer-widgets a.button,

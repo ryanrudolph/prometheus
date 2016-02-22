@@ -6,7 +6,7 @@ select,
 textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
-	color: #333;
+	color: $color-mine-shaft;
 	font-size: 18px;
 	font-weight: 300;
 	padding: 16px;
@@ -26,13 +26,13 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-	color: #333;
+	color: $color-mine-shaft;
 	font-weight: 300;
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-	color: #333;
+	color: $color-mine-shaft;
 	font-weight: 300;
 }
 
@@ -41,7 +41,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: #333;
+	background-color: $color-mine-shaft;
 	border: none;
 	color: #fff;
 	cursor: pointer;
@@ -80,7 +80,7 @@ input:hover[type="submit"],
 .footer-widgets input:hover[type="submit"],
 .footer-widgets .button:hover {
 	background-color: #fff;
-	color: #333;
+	color: $color-mine-shaft;
 }
 
 .button {

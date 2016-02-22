@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #333;
+	background-color: $color-mine-shaft;
 }
 
 .nav-primary .genesis-nav-menu a {
@@ -10,7 +10,7 @@
 }
 
 .nav-primary .genesis-nav-menu .sub-menu a {
-	color: #333;
+	color: $color-mine-shaft;
 }
 
 .nav-primary .genesis-nav-menu a:hover,

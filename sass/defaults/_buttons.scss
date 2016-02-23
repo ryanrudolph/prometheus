@@ -1,0 +1,23 @@
+/* ## Buttons
+--------------------------------------------- */
+
+.read-more{
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+
+.fade:hover {
+      opacity: 0.65;
+}

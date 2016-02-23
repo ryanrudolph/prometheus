@@ -1,0 +1,83 @@
+/* # Prometheus - Genesis Starter Child Theme
+Theme Name: Prometheus - Genesis Starter Child Theme
+Theme URI: http://www.ryanrudolph.com 
+Description: This child theme is based off of the Genesis Sample Child by StudioPress - http://www.studiopress.com 
+Author: Ryan Rudolph
+Author URI: http://www.ryanrudolph.com/  
+Template: genesis  
+Template Version: 1.0
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+
+/* # Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+	- Buttons
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Site Header
+	- Title Area
+	- Widget Area
+- Site Navigation
+	- Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Home Page
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Plugins
+	- Soliloquy
+	- Gravity Forms
+	- Simple Social Icons
+	- Accordions
+- Media Queries
+	- Retina Display
+	- Max-width: 1200px
+	- Max-width: 960px
+	- Max-width: 800px
+*/
+
+@import "utilities/variables/index";
+@import "utilities/functions/index";
+@import "utilities/mixins/index";
+
+@import "reset/index";
+@import "defaults/index";
+@import "structure-layout/index";
+@import "common-classes/index";
+@import "widgets/index";
+@import "site-header/index";
+@import "site-navigation/index";
+@import "home-page/index";
+@import "content-area/index";
+@import "sidebars/index";
+@import "footer-widgets/index";
+@import "site-footer/index";
+@import "plugins/index";
+@import "media-queries/index";

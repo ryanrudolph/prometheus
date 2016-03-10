@@ -1,6 +1,6 @@
 Supports Genesis 2.0+
 
-# How To Use
+# How To Use:
 
 <http://www.ryanrudolph.com/how-to-use-prometheus/>
 

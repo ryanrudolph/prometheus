@@ -1,5 +1,5 @@
-Based on Genesis Sample Child
-Supports Genesis 2.0+
+* Based on Genesis Sample Child
+* Supports Genesis 2.0+
 
 # How To Use:
 

@@ -2,7 +2,7 @@ Supports Genesis 2.0+
 
 # How To Use
 
-    http://www.ryanrudolph.com/how-to-use-prometheus/
+    [How To Use Prometheus - Blog Post](http://www.ryanrudolph.com/how-to-use-prometheus/)
 
 # Features:
 

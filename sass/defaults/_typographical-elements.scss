@@ -2,8 +2,8 @@
 --------------------------------------------- */
 
 body {
-	background-color: $color-whitesmoke;
-	color: $color-mine-shaft;
+	background-color: #fffsmoke;
+	color: #333;
 	font-family: $font-sans;
 	font-size: 18px;
 	font-weight: 300;
@@ -28,12 +28,12 @@ textarea:focus,
 }
 
 ::-moz-selection {
-	background-color: $color-mine-shaft;
+	background-color: #333;
 	color: #fff;
 }
 
 ::selection {
-	background-color: $color-mine-shaft;
+	background-color: #333;
 	color: #fff;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-	color: $color-mine-shaft;
+	color: #333;
 }
 
 p {

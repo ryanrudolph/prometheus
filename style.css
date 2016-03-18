@@ -800,9 +800,6 @@ img.alignright,
 .entry-content p.wp-caption-text {
   margin-bottom: 0; }
 
-.clear {
-  clear: both; }
-
 /* # Widgets
 ---------------------------------------------------------------------------------------------------- */
 .widget {
@@ -1190,10 +1187,9 @@ p.entry-meta {
   line-height: 1;
   padding: 40px 0;
   text-align: center; }
-
-.site-footer p {
-  margin-bottom: 0;
-  line-height: 1.5; }
+  .site-footer p {
+    margin-bottom: 0;
+    line-height: 1.5; }
 
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */

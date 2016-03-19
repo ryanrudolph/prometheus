@@ -7,22 +7,23 @@
 
 .entry-title {
 	font-size: 36px;
-}
 
-.entry-title a,
-.sidebar .widget-title a {
-	color: #333;
-}
+	a, .sidebar .widget-title a {
+		color: #333;
+	}
 
-.entry-title a:hover {
-	color: #e5554e;
+	.entry-title a:hover {
+		color: #e5554e;
+	}
+
 }
 
 .widget-title {
 	font-size: 18px;
 	margin-bottom: 20px;
-}
 
-.footer-widgets .widget-title {
-	color: #fff;
+	.footer-widgets & {
+		color: #fff;
+	}
+
 }

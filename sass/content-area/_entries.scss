@@ -4,10 +4,11 @@
 .entry {
 	margin-bottom: 40px;
 	padding: 50px 60px;
-}
 
-.content .entry {
-	background-color: #fff;
+	.content & {
+		background-color: #fff;
+	}
+
 }
 
 .entry-content ol,

@@ -36,15 +36,16 @@
 	
 	.simple-social-icons ul {
 		text-align: center!important;
-	}
+	
+		li {
+			float: none!important;
+			display: inline-block!important;
+		}
 
-	.simple-social-icons ul li {
-		float: none!important;
-		display: inline-block!important;
-	}
+		.alignright{
+			float: none;
+		}
 
-	.simple-social-icons ul.alignright{
-		float: none;
 	}
 
 }

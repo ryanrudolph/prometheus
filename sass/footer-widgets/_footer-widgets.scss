@@ -5,34 +5,35 @@
 	background-color: #333;
 	clear: both;
 	padding-top: 40px;
-}
-
-.footer-widgets,
-.footer-widgets a {
 	color: #999;
-}
 
-.footer-widgets input {
-	border: 1px solid #333;
-}
+	a {
+		color: #999;
+	}
 
-.footer-widgets a.button,
-.footer-widgets a:hover {
-	color: #fff;
-}
+	input {
+		border: 1px solid #333;
+	}
 
-.footer-widgets li {
-	border-bottom: 1px dotted #666;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-}
+	a.button,
+	a:hover {
+		color: #fff;
+	}
 
-.footer-widgets .widget {
-	margin-bottom: 40px;
-}
+	li {
+		border-bottom: 1px dotted #666;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
 
-.footer-widgets p:last-child {
-	margin-bottom: 0;
+	.widget {
+		margin-bottom: 40px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
 }
 
 .footer-widgets-1,

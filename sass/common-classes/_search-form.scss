@@ -3,11 +3,12 @@
 
 .search-form {
 	overflow: hidden;
-}
 
-.site-header .search-form {
-	float: right;
-	margin-top: 12px;
+	.site-header & {
+		float: right;
+		margin-top: 12px;
+	}
+
 }
 
 .entry-content .search-form,

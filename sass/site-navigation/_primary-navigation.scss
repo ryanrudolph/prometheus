@@ -3,14 +3,14 @@
 
 .nav-primary {
 	background-color: $primary-color;
-}
-
-.nav-primary .genesis-nav-menu a {
-	color: #fff;
-}
-
-.nav-primary .genesis-nav-menu .sub-menu a {
-	color: $primary-color;
+	
+	.genesis-nav-menu a {
+		color: #fff;
+	
+		.sub-menu a {
+			color: $primary-color;
+		}
+	}	
 }
 
 .nav-primary .genesis-nav-menu a:hover,

@@ -1,6 +1,10 @@
 /* ## Buttons
 --------------------------------------------- */
 
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+    background-color: $primary-color;
+}
+
 .read-more{
 	display: inline-block;
 	background-color: $primary-color;

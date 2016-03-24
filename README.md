@@ -10,7 +10,7 @@
     Responsive Mobile Menu
     Sassified
     Bourbon 4.2.6
-    Font Awesome 4.3.0
+    Font Awesome 4.5.0
 
 # Suggested Plugins:
 

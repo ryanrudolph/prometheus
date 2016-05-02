@@ -32,6 +32,15 @@ function custom_scripts_styles_mobile_responsive() {
 
 }
 
+//* Remove query strings from CSS and JS inclusions
+function _remove_script_version($src) {
+   $parts = explode('?ver', $src);
+   return $parts[0];
+}
+
+add_filter('style_loader_src', '_remove_script_version', 15, 1);
+add_filter('script_loader_src', '_remove_script_version', 15, 1);
+
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 

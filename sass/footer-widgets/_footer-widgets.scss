@@ -2,48 +2,21 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #333;
+	background-color: #fff;
+	font-size: 18px;
+	font-size: 1.8rem;
 	clear: both;
-	padding-top: 40px;
-	color: #999;
-
-	a {
-		color: #999;
-	}
-
-	input {
-		border: 1px solid #333;
-	}
-
-	a.button,
-	a:hover {
-		color: #fff;
-	}
-
-	li {
-		border-bottom: 1px dotted #666;
-		margin-bottom: 10px;
-		padding-bottom: 10px;
-	}
-
-	.widget {
-		margin-bottom: 40px;
-	}
-
-	p:last-child {
-		margin-bottom: 0;
-	}
-
+	padding: 60px 0;
 }
 
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-	width: 340px;
+	width: 380px;
 }
 
 .footer-widgets-1 {
-	margin-right: 60px;
+	margin-right: 70px;
 }
 
 .footer-widgets-1,

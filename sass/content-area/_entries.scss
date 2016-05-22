@@ -2,13 +2,9 @@
 --------------------------------------------- */
 
 .entry {
+	background-color: #fff;
 	margin-bottom: 40px;
-	padding: 50px 60px;
-
-	.content & {
-		background-color: #fff;
-	}
-
+	padding: 70px 80px;
 }
 
 .entry-content ol,
@@ -32,5 +28,5 @@
 
 .entry-content code {
 	background-color: #333;
-	color: #ddd;
+	color: #eee;
 }

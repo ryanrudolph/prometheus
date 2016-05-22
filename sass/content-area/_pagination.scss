@@ -14,16 +14,20 @@
 	display: inline;
 }
 
-.archive-pagination li a {
-	background-color: #333;
-	color: #fff;
+.archive-pagination a {
+	background-color: #fff;
+	color: #333;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 600;
 	padding: 8px 12px;
+	text-decoration: none;
 }
 
 .archive-pagination li a:hover,
 .archive-pagination .active a {
-	background-color: #e5554e;
+	background-color: #c3251d;
+	color: #fff;
 }

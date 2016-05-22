@@ -1,25 +1,41 @@
-@media only screen and (max-width: 800px) {
-
-	body {
-		background-color: #fff;
-		font-size: 16px;
+@media only screen and (max-width: 860px) {
+	
+	body > div {
+		font-size: 1.8rem;
 	}
 
-	.site-inner,
+	body {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+
+	.site-inner {
+		padding: 5% 5% 0;
+	}
+
 	.wrap {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 
+	.after-entry,
 	.archive-description,
 	.author-box,
 	.comment-respond,
 	.entry,
 	.entry-comments,
 	.entry-pings,
-	.sidebar .widget,
-	.site-header {
-		padding: 0;
+	.sidebar .widget {
+		padding: 30px;
+		margin-bottom: 5%;
+	}
+
+	.sidebar {
+		margin-bottom: 5%;
+	}
+
+	.pagination {
+		margin: 5% auto;
 	}
 
 	.archive-pagination li a {
@@ -29,7 +45,6 @@
 	.five-sixths,
 	.four-sixths,
 	.one-fourth,
-	.one-fifth,
 	.one-half,
 	.one-sixth,
 	.one-third,
@@ -42,7 +57,4 @@
 		width: 100%;
 	}
 
-	.sidebar .widget.enews-widget {
-		padding: 40px;
-	}
 }

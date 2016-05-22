@@ -1,13 +1,14 @@
-/* # Prometheus - Genesis Starter Child Theme
-Theme Name: Prometheus - Genesis Starter Child Theme
-Theme URI: http://www.ryanrudolph.com 
-Description: This child theme is based off of the Genesis Sample Child by StudioPress - http://www.studiopress.com 
-Author: Ryan Rudolph
-Author URI: http://www.ryanrudolph.com/  
-Template: genesis  
-Template Version: 1.0
-License: GPL-2.0+  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+/* 
+	Theme Name: Prometheus - Genesis Starter Child Theme
+	Theme URI: http://www.ryanrudolph.com 
+	Description: This child theme is based off of the Genesis Sample Child 2.2.3 by StudioPress - http://www.studiopress.com 
+	Author: Ryan Rudolph
+	Author URI: http://www.ryanrudolph.com/  
+
+	Template: genesis  
+	Template Version: 1.0
+	License: GPL-2.0+  
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 */
 
 
@@ -37,31 +38,34 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	- WordPress
 - Widgets
 	- Featured Content
+- Plugins
+	- Soliloquy
+	- Gravity Forms
+	- Simple Social Icons
+- Skip Links
 - Site Header
 	- Title Area
 	- Widget Area
 - Site Navigation
-	- Header Navigation
-	- Primary Navigation
-	- Secondary Navigation
+	- Accessible Menu
+	- Site Header Navigation
+	- After Header Navigation
+	- Footer Navigation
 - Home Page
 - Content Area
 	- Entries
 	- Entry Meta
 	- Pagination
+	- Comments
 - Sidebars
 - Footer Widgets
 - Site Footer
-- Plugins
-	- Soliloquy
-	- Gravity Forms
-	- Simple Social Icons
-	- Accordions
 - Media Queries
-	- Retina Display
+	- Max-width: 1340px
 	- Max-width: 1200px
-	- Max-width: 960px
-	- Max-width: 800px
+	- Max-width: 1023px
+	- Max-width: 860px
+- Print Styles
 */
 
 @import "utilities/variables/index";
@@ -74,6 +78,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "structure-layout/index";
 @import "common-classes/index";
 @import "widgets/index";
+@import "plugins/index";
+@import "skip-links/index";
 @import "site-header/index";
 @import "site-navigation/index";
 @import "home-page/index";
@@ -81,5 +87,5 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "sidebars/index";
 @import "footer-widgets/index";
 @import "site-footer/index";
-@import "plugins/index";
 @import "media-queries/index";
+@import "print/index";

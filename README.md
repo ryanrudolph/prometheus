@@ -7,7 +7,6 @@
 
 # Features:
 
-    Responsive Mobile Menu
     Sassified
     Bourbon 4.2.6
     Font Awesome 4.6.3

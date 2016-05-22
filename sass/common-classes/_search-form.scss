@@ -3,17 +3,22 @@
 
 .search-form {
 	overflow: hidden;
-
-	.site-header & {
-		float: right;
-		margin-top: 12px;
-	}
-
 }
 
 .entry-content .search-form,
 .site-header .search-form {
+	margin-bottom: 40px;
 	width: 50%;
+}
+
+.site-header .search-form {
+	float: right;
+	margin: 12px auto 0;
+}
+
+.post-password-form input[type="submit"],
+.search-form input[type="submit"] {
+	margin-top: 10px;
 }
 
 .genesis-nav-menu .search input[type="submit"],

@@ -1,4 +1,4 @@
-* Based on Genesis Sample Child
+* Based on Genesis Sample Child 2.2.3
 * Supports Genesis 2.0+
 
 # How To Use:
@@ -10,10 +10,9 @@
     Responsive Mobile Menu
     Sassified
     Bourbon 4.2.6
-    Font Awesome 4.5.0
+    Font Awesome 4.6.3
 
 # Suggested Plugins:
 
     Soliloquy
     Gravity Forms
-    Accordion Shortcodes

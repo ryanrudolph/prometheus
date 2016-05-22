@@ -1,4 +1,14 @@
 <?php
+/**
+ * Prometheus - GetPhound Starter Theme.
+ *
+ * This file adds the landing page template to the Genesis Sample Theme.
+ *
+ * @package Prometheus
+ * @author  GetPhound
+ * @license GPL-2.0+
+ * @link    http://www.ryanrudolph.com/how-to-use-prometheus
+ */
 
 // Template Name: Sitemap
 

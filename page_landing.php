@@ -1,13 +1,13 @@
 <?php
 /**
- * Genesis Sample.
+ * Prometheus - GetPhound Starter Theme.
  *
  * This file adds the landing page template to the Genesis Sample Theme.
  *
- * @package Genesis Sample
- * @author  StudioPress
+ * @package Prometheus
+ * @author  Ryan Rudolph
  * @license GPL-2.0+
- * @link    http://www.studiopress.com/
+ * @link    http://www.ryanrudolph.com/how-to-use-prometheus
  */
 
 //* Template Name: Landing

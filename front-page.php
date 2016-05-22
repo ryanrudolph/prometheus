@@ -2,9 +2,12 @@
 /** 
 * Front Page 
 * 
-* @author Ryan Rudolph <ryan@ryanrudolph.com> 
-* @copyright Copyright (c) 2015, Ryan Rudolph
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License 
+ * This is the template for the homepage.
+ *
+ * @package Prometheus
+ * @author  GetPhound
+ * @license GPL-2.0+
+ * @link    http://www.ryanrudolph.com/how-to-use-prometheus
 * 
 */
 

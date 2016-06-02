@@ -30,7 +30,7 @@ define( 'CHILD_THEME_NAME', 'Genesis Sample' );
 define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
 define( 'CHILD_THEME_VERSION', '2.2.3' );
 
-//* Enqueue Scripts and Styles
+//* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
 function genesis_sample_enqueue_scripts_styles() {
 
@@ -59,7 +59,7 @@ add_filter('script_loader_src', '_remove_script_version', 15, 1);
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'caption', 'comment-form', 'comment-list', 'gallery', 'search-form' ) );
 
-//* Add Accessibility support
+//* Add accessibility support
 add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu', 'headings', 'rems', 'search-form', 'skip-links' ) );
 
 //* Add viewport meta tag for mobile browsers
@@ -156,3 +156,6 @@ function prometheus_footer() {
     echo '<p>© Copyright ' . date('Y') . ' ';
     echo bloginfo('name') . '. All Rights Reserved</p>';
 }
+
+//* Add ability to hide gravity form labels
+add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );

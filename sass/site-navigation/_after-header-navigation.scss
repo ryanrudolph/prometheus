@@ -1,7 +1,9 @@
 /* ## After Header Navigation
 --------------------------------------------- */
 
-.nav-primary {
-	background-color: #fff;
-	border-top: 1px solid #eee;
+.nav-primary{
+	background-color: $primary-color;
+	.genesis-nav-menu a{
+		color: #fff;
+	}
 }

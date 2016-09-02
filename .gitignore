@@ -13,3 +13,6 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 .sass-cache*
 .css.map
+
+# Development Files
+/node_modules

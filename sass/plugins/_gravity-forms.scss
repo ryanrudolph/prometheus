@@ -2,5 +2,13 @@
 --------------------------------------------- */
 
 .gform_fields li {
-    margin: 10px 0;
+    margin: 15px 0;
+}
+
+.gform_wrapper li.hidden_label input {
+    margin-top: 0!important;
+}
+
+body .gform_wrapper ul li.gfield {
+	margin-top: 25px!important;
 }

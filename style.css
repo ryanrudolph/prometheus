@@ -265,8 +265,8 @@ body {
   background-color: #eee;
   color: #333;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.625;
   margin: 0; }
@@ -462,8 +462,8 @@ textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #333;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 10px;
+  font-size: 1rem;
   font-weight: 400;
   padding: 16px;
   width: 100%; }
@@ -588,7 +588,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .button
   padding: 10px;
   font-size: 18px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  box-sizing: border-box; }
 
 .fade {
   opacity: 1;
@@ -907,7 +908,13 @@ img.alignright,
 /* Gravity Forms
 --------------------------------------------- */
 .gform_fields li {
-  margin: 10px 0; }
+  margin: 15px 0; }
+
+.gform_wrapper li.hidden_label input {
+  margin-top: 0 !important; }
+
+body .gform_wrapper ul li.gfield {
+  margin-top: 25px !important; }
 
 /* Simple Social Icons
 --------------------------------------------- */
@@ -1080,8 +1087,9 @@ img.alignright,
 /* ## After Header Navigation
 --------------------------------------------- */
 .nav-primary {
-  background-color: #fff;
-  border-top: 1px solid #eee; }
+  background-color: #333; }
+  .nav-primary .genesis-nav-menu a {
+    color: #fff; }
 
 /* ## Footer Navigation
 --------------------------------------------- */
@@ -1449,11 +1457,11 @@ p.entry-meta {
     margin: 0 auto 40px; } }
 @media only screen and (max-width: 860px) {
   body > div {
-    font-size: 1.8rem; }
+    font-size: 1rem; }
 
   body {
-    font-size: 18px;
-    font-size: 1.8rem; }
+    font-size: 10px;
+    font-size: 1rem; }
 
   .site-inner {
     padding: 5% 5% 0; }
@@ -1486,6 +1494,7 @@ p.entry-meta {
   .four-sixths,
   .one-fourth,
   .one-half,
+  .one-fifth,
   .one-sixth,
   .one-third,
   .three-fourths,

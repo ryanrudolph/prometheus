@@ -154,7 +154,7 @@ remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'prometheus_footer' );
 function prometheus_footer() {
     echo '<p>© Copyright ' . date('Y') . ' ';
-    echo bloginfo('name') . '. All Rights Reserved. <small>Website Design and Development by <a target="_blank" title="Philadelphia SEO, Website Design & Social Media Marketing | GetPhound" href="http://getphound.com">GetPhound</a>.</small></p>';
+    echo bloginfo('name') . '. All Rights Reserved. <small>Website Design and Development by <a target="_blank" title="Philadelphia SEO, Website Design & Social Media Marketing | GetPhound" href="https://getphound.com">GetPhound</a>.</small></p>';
 }
 
 //* Add ability to hide gravity form labels

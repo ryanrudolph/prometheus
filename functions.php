@@ -10,6 +10,9 @@
  * @link    http://www.ryanrudolph.com/how-to-use-prometheus
  */
 
+//* GetPhound CMS (Disabled during development)
+include_once( get_template_directory() . '/lib/gp-cms.php' );
+
 //* Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
 
@@ -26,9 +29,9 @@ require_once( get_stylesheet_directory() . '/lib/customize.php' );
 include_once( get_stylesheet_directory() . '/lib/output.php' );
 
 //* Child theme (do not remove)
-define( 'CHILD_THEME_NAME', 'Genesis Sample' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.2.3' );
+define( 'CHILD_THEME_NAME', 'Prometheus' );
+define( 'CHILD_THEME_URL', 'https://github.com/ryanrudolph/prometheus' );
+define( 'CHILD_THEME_VERSION', '2.1' );
 
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );

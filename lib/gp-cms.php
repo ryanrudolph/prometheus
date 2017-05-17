@@ -15,11 +15,11 @@ Customize Dashboard
 -------------------------------------------------------------------- */
 
 function gp_welcome_panel() {
-	echo '<div align="gp-dash-credit">';
-	echo '<img src="' . esc_url( get_header_image() ). '" alt="' . esc_attr( get_bloginfo( 'title' ) )'" />';
+	echo '<div class="gp-dash-credit">';
+	echo '<img src="' . esc_url( get_header_image() ). '" alt="' . esc_attr( get_bloginfo( 'title' ) ) . '" />';
 	echo '<h3>Welcome to <strong>' . esc_attr( get_bloginfo( 'title' ) ) . '</strong> Content Management System';
 	echo 'Designed and Developed by getphound.com';
-	echo '<img src="http://getphound.com/wp-content/themes/getphound/images/logo.png" alt="GetPhound" />';
+	echo '<img src="https://getphound.com/wp-content/themes/getphound/images/logo.png" alt="GetPhound" />';
 	echo '</div>';
 }
 

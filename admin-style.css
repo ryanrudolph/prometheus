@@ -1,0 +1,9 @@
+.gp-dash-credit {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.gp-dash-credit > a {
+    display: block;
+    margin: 30px auto;
+}

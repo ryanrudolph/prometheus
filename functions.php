@@ -162,3 +162,9 @@ function prometheus_footer() {
 
 //* Add ability to hide gravity form labels
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
+
+//* Load custom admin styles
+add_action( 'admin_enqueue_scripts', 'prometheus_custom_wp_admin_style_enqueue' );
+function prometheus_custom_wp_admin_style_enqueue() {
+  wp_enqueue_style( 'custom_wp_admin_css', get_stylesheet_directory_uri() . '/admin-style.css', false, '1.0.0' );
+}

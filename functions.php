@@ -80,11 +80,11 @@ add_theme_support( 'custom-header', array(
 //* Add support for custom background
 add_theme_support( 'custom-background' );
 
-//* Add support for after entry widget
-add_theme_support( 'genesis-after-entry-widget-area' );
-
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
+
+//* Unregister secondary sidebar
+unregister_sidebar( 'sidebar-alt' );
 
 //* Add Image Sizes
 add_image_size( 'featured-image', 720, 400, TRUE );

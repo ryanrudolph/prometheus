@@ -10,9 +10,6 @@
  * @link    http://www.ryanrudolph.com/how-to-use-prometheus
  */
 
-//* GetPhound CMS (Disabled during development)
-include_once( get_stylesheet_directory() . '/lib/gp-cms.php' );
-
 //* Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
 

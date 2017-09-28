@@ -4,7 +4,7 @@
 body {
 	background-color: #eee;
 	color: #333;
-	font-family: $font-sans;
+	font-family: $font-text;
 	font-size: 11px;
 	font-size: 1.1rem;
 	font-weight: 400;
@@ -35,7 +35,7 @@ textarea:focus,
 }
 
 a {
-	color: $primary-color;
+	color: $primary;
 	text-decoration: underline;
 
 	&:hover,

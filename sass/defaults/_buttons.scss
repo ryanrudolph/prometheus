@@ -2,13 +2,13 @@
 --------------------------------------------- */
 
 button, input[type="button"], input[type="reset"], input[type="submit"], .button {
-    background-color: $primary-color;
+    background-color: $accent-shade;
 }
 
 .read-more{
 	text-decoration: none;
 	display: inline-block;
-	background-color: $primary-color;
+	background-color: $accent-shade;
 	color: #fff;
 	padding: 10px;
 	font-size: 18px;

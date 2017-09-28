@@ -7,9 +7,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: #333;
-	font-family: $font-sans;
-	font-weight: 600;
+	font-family: $font-display;
+	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -17,30 +16,38 @@ h6 {
 h1 {
 	font-size: 24px;
 	font-size: 2.4rem;
+	color: $primary;
 }
 
 h2 {
 	font-size: 20px;
 	font-size: 2rem;
-	color: $primary-color;
+	color: $primary;
 }
 
 h3 {
 	font-size: 18px;
 	font-size: 1.6rem;
+	color: $secondary;
 }
 
 h4 {
 	font-size: 16px;
 	font-size: 1.6rem;
+	color: $secondary-shade;
 }
 
 h5 {
 	font-size: 14px;
 	font-size: 1.4rem;
+	font-family: $font-text;
+	text-transform: uppercase;
+	color: $secondary;
 }
 
 h6 {
 	font-size: 12px;
 	font-size: 1.2rem;
+	font-family: $font-display;
+	text-transform: uppercase;
 }

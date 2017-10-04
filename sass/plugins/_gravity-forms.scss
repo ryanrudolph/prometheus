@@ -13,6 +13,10 @@ body .gform_wrapper ul li.gfield {
     margin-top: 25px!important;
 }
 
+body .gform_wrapper ul li.gfield:nth-child(1) {
+	margin-top: 0!important;
+}
+
 .gform_wrapper .gfield_required {
     color: rgba(255, 255, 255, 0.33);
 }

@@ -64,7 +64,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus  {
-	background-color: #c3251d;
+	background-color: $primary;
 	color: #fff;
 }
 

@@ -65,8 +65,8 @@
 	.menu-toggle,
 	.sub-menu-toggle {
 		border-width: 0;
-		background-color: #fff;
-		color: #333;
+		background-color: $primary-shade;
+		color: #fff;
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
@@ -174,8 +174,8 @@
 	.js nav button:hover,
 	.js .menu-toggle:hover,
 	.js .nav-primary {
-		background-color: #fff;
-		color: #000;
+		background-color: $primary-shade;
+		color: #fff;
 	}
 
 	.js nav button:focus,
